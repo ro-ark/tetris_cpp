@@ -2,5 +2,7 @@
 
 int main()
 {
-  std::cout << "Hello, World!" << "\n";
+  for(unsigned int i = 0; i < (int)sizeof(int); i++){
+    std::cout << "Hello, Tetris!" << "\n";
+  }
 }
